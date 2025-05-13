@@ -1,5 +1,19 @@
-1. Create a repop folder
-in Github, go to the repo, then click on Code, then click on SSH
+1. CD to the folder where u want to clone the Repo
+there is no need to create a folder for the repo itself. Cloning will bring the whole folder in.
+
+2. in Github, go to the repo, then click on Code, then click on SSH
 example: git@github.com:ghostie192/REPONAME (this will be the repo that u want to clone)
 EG: git@github.com:ghostie192/git_test.git
-in terminal: git clone git@github.com:ghostie192/reponame (see EG)
+
+3. in terminal: git clone git@github.com:ghostie192/reponame (see EG)
+
+4. TEST to see if works:
+In terminal: 
+cd to clone repo folder
+git remote -v
+
+If working will see below, 
+origin  git@github.com:ghostie192/reponame.git (fetch)
+origin  git@github.com:ghostie192/reponame.git (push)
+
+If not, use rm -r to move local repo directory and try again
