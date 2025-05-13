@@ -1,0 +1,5 @@
+1. Create a repop folder
+in Github, go to the repo, then click on Code, then click on SSH
+example: git@github.com:ghostie192/REPONAME (this will be the repo that u want to clone)
+EG: git@github.com:ghostie192/git_test.git
+in terminal: git clone git@github.com:ghostie192/reponame (see EG)
